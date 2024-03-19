@@ -1,6 +1,6 @@
 const form = document.getElementById("form");
-const campoAInput = document.querySelector("campoA");
-const campoBInput = document.querySelector("campoB");
+const campoAInput = document.getElementById("campoA");
+const campoBInput = document.getElementById("campoB");
 
 
 form.addEventListener("submit", (event) => {
